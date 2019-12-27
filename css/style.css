@@ -1,0 +1,608 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0px auto;
+    display: block;
+    height: auto;
+    overflow: auto;
+}
+
+body {
+    width: 100%;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    float: left;
+    background-image: url(../image/blurbristlebrush.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+section {
+    padding: 20px 0px;
+}
+.logo {
+    width: 20%;
+    float: left;
+}
+
+a img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.menu {
+    width: 55%;
+    float: left;
+}
+
+.menu nav ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu nav ul li {
+    display: inline-block;
+    margin: 15px 15px;
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+}
+
+.menu nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.social-icons {
+    width: 25%;
+    float: left;
+}
+
+.social-icons nav ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.social-icons nav ul li {
+    display: inline-block;
+    margin: 25px 9px;
+}
+
+.fa.fa-facebook {
+    background-color: #4267B2;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.fa.fa-youtube {
+    background-color: #FF0000;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.fa.fa-twitter {
+    background-color: #1DA1F2;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.fa.fa-linkedin {
+    background-color: #0077B5;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.fa.fa-sign-in {
+    background-color: #0077B5;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 5px;
+}
+.info {
+    width: 40%;
+    display: inline-block;
+    background: rgba(130, 148, 252, 0.356);
+    margin: 100px 200px;
+    text-align: center;
+    color: #333333;
+    height: 60vh;
+    padding: 10px;
+}
+
+.info h1 {
+    letter-spacing: 20px;
+    font-size: 40px;
+    margin: 20px 6px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+}
+
+.info p {
+    text-align: justify;
+    color: black;
+    padding: 0 50px;
+    font-weight: normal;
+    font-size: 20px;
+    margin: 40px 15px;
+}
+
+.info button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 15px 15px;
+    font-size: 20px;
+    border-radius: 15px 15px;
+    cursor: pointer;
+    background: transparent;
+    color: black;
+    border: solid rgba(0, 0, 0, 0.288);
+}
+
+.service {
+    width: 100%;
+    float: left;
+    margin: 16px 14px;
+    text-align: center;
+}
+
+.service-header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: blue;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.service-one {
+    width: 25%;
+    float: left;
+    margin: 50px 0px
+}
+
+.service-one i {
+    color: #657AD3;
+}
+
+.service-one h3 {
+    color: black;
+    margin: 0px 5px 15px;
+}
+
+.service-one button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 15px 15px;
+    box-shadow: none;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.4s ease-in-out;
+    font-size: 20px;
+    border-radius: 15px 15px;
+    color: black;
+    border: solid rgba(0, 0, 0, 0.288);
+}
+
+.service-one p {
+    display: inline-block;
+    margin: 5px 5px;
+    font-size: 20px;
+}
+
+.fa.fa-medkit {
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin: 0px 5px 30px;
+}
+
+.service-two {
+    width: 25%;
+    float: left;
+    margin: 50px 0px
+}
+
+.service-two i {
+    color: #657AD3;
+}
+
+.service-two h3 {
+    color: black;
+    margin: 0px 5px 15px;
+}
+
+.service-two p {
+    display: inline-block;
+    margin: 5px 5px;
+    font-size: 20px;
+}
+
+.service-two button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 15px 15px;
+    box-shadow: none;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.4s ease-in-out;
+    font-size: 20px;
+    border-radius: 15px 15px;
+    color: black;
+    border: solid rgba(0, 0, 0, 0.288);
+}
+.fa.fa-ambulance {
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin: 0px 5px 30px;
+}
+
+.service-three {
+    width: 25%;
+    float: left;
+    margin: 50px 0px
+}
+
+.service-three i {
+    color: #657AD3;
+}
+
+.service-three h3 {
+    color: black;
+    margin: 0px 5px 15px;
+}
+
+.service-three p {
+    display: inline-block;
+    margin: 5px 5px;
+    font-size: 20px;
+}
+
+.service-three button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 15px 15px;
+    box-shadow: none;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.4s ease-in-out;
+    font-size: 20px;
+    border-radius: 15px 15px;
+    color: black;
+    border: solid rgba(0, 0, 0, 0.288);
+}
+
+.fa.fa-stethoscope {
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin: 0px 5px 30px;
+}
+
+.service-four {
+    width: 25%;
+    float: left;
+    margin: 50px 0px
+}
+
+.service-four i {
+    color: #657AD3;
+}
+
+.service-four h3 {
+    color: black;
+    margin: 0px 5px 15px;
+}
+
+.service-four p {
+    display: inline-block;
+    margin: 5px 5px;
+    font-size: 20px;
+}
+
+.service-four button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 15px 15px;
+    box-shadow: none;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.4s ease-in-out;
+    font-size: 20px;
+    border-radius: 15px 15px;
+    color: black;
+    border: solid rgba(0, 0, 0, 0.288);
+}
+
+.fa.fa-heartbeat {
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin: 0px 5px 30px;
+}
+
+.intro {
+    width: 100%
+}
+
+.intro h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: blue;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    margin: 30px;
+}
+
+.intro-left {
+    width: 45%;
+    float: left;
+    margin: 35px 14px;
+}
+
+.intro-right {
+    width: 45%;
+    float: left;
+}
+
+.intro-right p {
+    font-size: 20px;
+    text-align: justify;
+    margin: 35px 0px 35px 72px;
+}
+
+.blog {
+    width: 100%;
+    padding: 5px 5px;
+    background-color: rgba(14, 14, 212, 0.192);
+}
+
+.blog h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: blue;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    margin: 30px;
+}
+
+.blog-left {
+    height: 300px;
+    width: 45%;
+    float: left;
+}
+
+.blog-left h3 {
+    text-align: center;
+    font-size: 25px;
+    color: blue;
+    margin: 10px 10px;
+}
+
+.blog-left p {
+    font-size: 20px;
+    text-align: justify;
+    margin: 35px 35px 35px 30px;
+}
+
+.blog-left button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 15px 15px;
+    font-size: 20px;
+    border-radius: 15px 15px;
+    cursor: pointer;
+    background: transparent;
+    color: black;
+    border: solid rgba(0, 0, 0, 0.288);
+}
+
+.blog-right {
+    width: 45%;
+    float: left;
+}
+
+.blog-right h3 {
+    text-align: center;
+    font-size: 25px;
+    color: blue;
+    margin: 10px 10px;
+}
+
+.blog-right p {
+    font-size: 20px;
+    text-align: justify;
+    margin: 35px 35px 35px 30px;
+}
+
+.blog-right button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 15px 15px;
+    font-size: 20px;
+    border-radius: 15px 15px;
+    cursor: pointer;
+    background: transparent;
+    color: black;
+    border: solid rgba(0, 0, 0, 0.288);
+}
+
+.history {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.history ul {
+    font-size: 25px;
+}
+
+.history ul li {
+    list-style-type: none;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.fa.fa-credit-card {
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin: 0px 5px 15px;
+}
+
+.fa.fa-users {
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin: 0px 5px 15px;
+}
+
+.fa.fa-files-o {
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin: 0px 5px 15px;
+}
+
+.review {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.review h2 {
+    font-size: 39px;
+    text-transform: uppercase;
+    color: blue;
+}
+
+.review h2 span {
+    color: white;
+}
+
+.fa.fa-star-o {
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin: 0px 5px 15px;
+    background-color: mediumblue;
+}
+
+.review ul{
+    list-style: none;
+}
+
+.review ul li {
+    display: inline-block;
+    margin: 5x 5px;
+}
+
+.review ul li .fa {
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin: 0px 5px 15px;
+    color: mediumblue;
+    background-color: rgba(0, 0, 205, 0.404);
+}
+
+.preview-section {
+    text-align: center;
+    background: #7f8c8d;
+    color: #fff;
+}
+
+.preview-section h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.preview {
+    width: 15%;
+    float: left;
+    margin: 0 .5%;
+    padding: 0 10px;
+}
+
+.preview p {
+    color: darkslategrey;
+}
+
+footer {
+    width: 100%;
+    float: left;
+}
+
+.footer-all {
+    background: #303952;
+    color: #fff;
+    font-size: 12px;
+    padding: 30px 0;
+}
+.footer-one {
+    width: 45%;
+    float: left;
+}
+.footer-left {
+    text-align: center;
+    padding: 0px 175px;
+    line-height: 1.5;
+}
+.footer-left ul{
+    list-style: none;
+}
+
+.footer-left ul li {
+    display: inline-block;
+    margin: 5x 5px;
+}
+
+.footer-two {
+    width: 45%;
+    float: left;
+}
+
+.footer-right {
+    text-align: center;
+    padding: 0px 175px;
+    line-height: 1.5;
+}
+.footer-right ul{
+    list-style: none;
+}
+
+.footer-right ul li {
+    display: inline-block;
+    margin: 5x 5px;
+}
+
+.fa.fa-phone {
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin: 0px 5px;
+}
+
+.fa.fa-envelope {
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin: 0px 5px;
+}
+
+.fa.fa-home {
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin: 0px 5px;
+}
